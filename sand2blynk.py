@@ -15,14 +15,10 @@ PIN_RESISTANCE = 1  # Odpowiada V1 w aplikacji Blynk
 PIN_CAPACITANCE = 2  # Odpowiada V2
 
 # KONFIGURACJA CZUJNIKÓW
-min_value_asR = 22000
-max_value_asR = 65525
-min_value_asC = 18129
-max_value_asC = 34000
 min_value_asR=22000
 max_value_asR=65525
 min_value_asC=18129
-max_value_asC=34000
+max_value_asC=38000
 
 def sensor_to_percentage(value, min_value, max_value):
     """Przekształca wartość sygnału czujnika na procenty."""
