@@ -57,10 +57,12 @@ def send_ap0_voltage():
     blynk.virtual_write(PIN_AP0_VOLTAGE_BUTTON, ap0_voltage)
 
 # Obsługa przycisku w aplikacji Blynk
-@blynk.on("V2")
-def v2_write_handler(value):
-    if int(value[0]) == 1:  # Sprawdzamy, czy przycisk został naciśnięty (wartość 1)
+def v2_write_handler(pin, value):
+    if int(value[0]) == 1:  # Jeśli przycisk został naciśnięty (wartość 1)
         send_ap0_voltage()
+
+# Rejestracja handlera dla przycisku na V2
+blynk.add_virtual_pin(PIN_AP0_VOLTAGE_BUTTON, write=v2_write_handler)
 
 while True:
 
