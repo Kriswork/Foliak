@@ -1,6 +1,7 @@
 import digitalio
 import board
 import time
+import busio
 import BlynkLib  # Klient Blynk TCP
 import adafruit_mcp3xxx.mcp3008 as MCP
 from adafruit_mcp3xxx.analog_in import AnalogIn
