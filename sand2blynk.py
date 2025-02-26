@@ -56,13 +56,17 @@ def send_ap0_voltage():
     print(f"Przycisk naciśnięty! Wysyłam ap0_voltage: {ap0_voltage} V")
     blynk.virtual_write(PIN_AP0_VOLTAGE_BUTTON, ap0_voltage)
 
-# Obsługa przycisku w aplikacji Blynk
-def v2_write_handler(pin, value):
-    if int(value[0]) == 1:  # Jeśli przycisk został naciśnięty (wartość 1)
+def check_button():
+    """Sprawdza stan przycisku w aplikacji Blynk."""
+    blynk.virtual_sync(PIN_AP0_VOLTAGE_BUTTON)  # Pobranie aktualnego stanu V2
+    time.sleep(0.1)  # Czekamy chwilę, aby uniknąć nadmiernego obciążenia
+
+@blynk.VIRTUAL_WRITE(PIN_AP0_VOLTAGE_BUTTON)
+def v2_write_handler(value):
+    if int(value) == 1:  # Jeśli przycisk został naciśnięty (wartość 1)
         send_ap0_voltage()
 
-# Rejestracja handlera dla przycisku na V2
-blynk.add_virtual_pin(PIN_AP0_VOLTAGE_BUTTON, write=v2_write_handler)
+blynk.set_user_task(check_button, 1000)  # Co 1 sekundę sprawdzaj stan przycisku
 
 while True:
 
