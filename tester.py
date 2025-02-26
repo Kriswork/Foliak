@@ -9,7 +9,7 @@ from datetime import datetime
 min_value_asR=22000
 max_value_asR=65525
 min_value_asC=18129
-max_value_asC=38000
+max_value_asC=35000
 
 def sensor_to_percentage(value, min_value, max_value):
     """
