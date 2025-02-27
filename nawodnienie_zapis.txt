@@ -1,3 +1,4 @@
 Data	Godzina	Napięcie(V)_C_(P0)	RAW_C_(P0)	Procent_C_(P0)	Napięcie(V)_R_(P7)	RAW_R_(P7)	Procent_R_(P7)	Prog_(bool)
 2025-02-27	12:36	1.76	35042	14.89%	3.28	65279	0.57%	False
 2025-02-27	13:06	0.88	17489	100.0%	1.76	34978	70.18%	False
+2025-02-27	17:00	0.87	17360	100.0%	1.45	28700	84.61%	False

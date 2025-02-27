@@ -66,4 +66,4 @@ while True:
     # Obsługa zdarzeń Blynk
     blynk.run()
 
-    time.sleep(3600)
+    time.sleep(5)
