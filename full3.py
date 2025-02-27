@@ -72,7 +72,7 @@ while True:
     time_str = now.strftime("%H:%M")
     
     # Format data for logging
-    log_entry = f"{date_str}\t{time_str}\t{ap0_voltage:.2f}\t{ap0_raw}\t{sensor_to_percentage(ap0_raw, min_value_asC, max_value_asC)}%\t{ap7_voltage:.2f}\t{ap7_raw}\t{sensor_to_percentage(as7_raw, min_value_asR, max_value_asR)}%\t{d7}\n"
+    log_entry = f"{date_str}\t{time_str}\t{ap0_voltage:.2f}\t{ap0_raw}\t{sensor_to_percentage(ap0_raw, min_value_asC, max_value_asC)}%\t{ap7_voltage:.2f}\t{ap7_raw}\t{sensor_to_percentage(ap7_raw, min_value_asR, max_value_asR)}%\t{d7}\n"
     
     # Write to file
     with open(file_path, "a") as file:
