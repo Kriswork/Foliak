@@ -1,7 +1,7 @@
 import BlynkLib
 import time
 
-BLYNK_AUTH_TOKEN = 'Zxw6Dh-9z609JoYpgecxqh6BvV7_blJ7' # Upewnij się, że token jest poprawny.
+BLYNK_AUTH_TOKEN = 'LLjO2Mzn4uNz99vFUsNe390yXd_-LMGK' # Upewnij się, że token jest poprawny.
 
 try:
     blynk = BlynkLib.Blynk(BLYNK_AUTH_TOKEN, server="fra1.blynk.cloud", port=80)
