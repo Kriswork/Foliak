@@ -45,11 +45,10 @@ chan0 = AnalogIn(mcp, MCP.P0)
 def button_handler(value):
     if int(value[0]) == 1:  # Sprawdza, czy przycisk został naciśnięty
         res_percent = sensor_to_percentage(chan7.value, min_value_asR, max_value_asR)
-        print(f"Przycisk naciśnięty! Wysyłam res_percent: {res_percent}%")
+        #print(f"Przycisk naciśnięty! Wysyłam res_percent: {res_percent}%")
         blynk.virtual_write(PIN_BUTTON_OUTPUT, res_percent)
         
 antysleep = 0
-print("początek as")
 
 while True:
 
@@ -72,9 +71,7 @@ while True:
 
     if antysleep == 120:
         antysleep = 0
-        print("reset danych")
     # Obsługa zdarzeń Blynk
     blynk.run()
-    print("run")
 
-    time.sleep(30)
+    time.sleep(15)
