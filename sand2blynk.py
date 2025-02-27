@@ -72,7 +72,7 @@ while True:
 
     res_percent = sensor_to_percentage(ap7_raw, min_value_asR, max_value_asR)
     cap_percent = sensor_to_percentage(ap0_raw, min_value_asC, max_value_asC)
-    Print(res_percent, cap_percent)
+    print(res_percent, cap_percent)
 
     # Wysyłanie danych do Blynk (TCP)
     blynk.virtual_write(PIN_RESISTANCE, res_percent)
