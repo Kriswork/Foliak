@@ -47,23 +47,34 @@ def button_handler(value):
         res_percent = sensor_to_percentage(chan7.value, min_value_asR, max_value_asR)
         print(f"Przycisk naciśnięty! Wysyłam res_percent: {res_percent}%")
         blynk.virtual_write(PIN_BUTTON_OUTPUT, res_percent)
+        
+antysleep = 0
+print("początek as")
 
 while True:
-    ap0_voltage = chan0.voltage
-    ap0_raw = chan0.value
-    ap7_voltage = chan7.voltage
-    ap7_raw = chan7.value
 
-    res_percent = sensor_to_percentage(ap7_raw, min_value_asR, max_value_asR)
-    cap_percent = sensor_to_percentage(ap0_raw, min_value_asC, max_value_asC)
+    if antysleep == 0:
+        ap0_voltage = chan0.voltage
+        ap0_raw = chan0.value
+        ap7_voltage = chan7.voltage
+        ap7_raw = chan7.value
 
-    print(res_percent, cap_percent)
+        res_percent = sensor_to_percentage(ap7_raw, min_value_asR, max_value_asR)
+        cap_percent = sensor_to_percentage(ap0_raw, min_value_asC, max_value_asC)
 
-    # Wysyłanie danych do Blynk (TCP)
-    blynk.virtual_write(PIN_RESISTANCE, res_percent)
-    blynk.virtual_write(PIN_CAPACITANCE, cap_percent)
+        print(res_percent, cap_percent)
 
+        # Wysyłanie danych do Blynk (TCP)
+        blynk.virtual_write(PIN_RESISTANCE, res_percent)
+        blynk.virtual_write(PIN_CAPACITANCE, cap_percent)
+        
+    antysleep = antysleep + 1
+
+    if antysleep == 120:
+        antysleep = 0
+        print("reset danych")
     # Obsługa zdarzeń Blynk
     blynk.run()
+    print("run")
 
-    time.sleep(5)
+    time.sleep(30)
