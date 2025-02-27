@@ -7,6 +7,7 @@ try:
     blynk = BlynkLib.Blynk(BLYNK_AUTH_TOKEN, server="blynk.cloud", port=443)
     while True:
         blynk.run()
-        time.sleep(0.1)
+        print("połączono")
+        time.sleep(10)
 except Exception as e:
     print(f"Wystąpił błąd: {e}")
