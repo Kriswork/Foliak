@@ -4,7 +4,7 @@ import time
 BLYNK_AUTH_TOKEN = 'LLjO2Mzn4uNz99vFUsNe390yXd_-LMGK' # Upewnij się, że token jest poprawny.
 
 try:
-    blynk = BlynkLib.Blynk(BLYNK_AUTH_TOKEN, server="fra1.blynk.cloud", port=80)
+    blynk = BlynkLib.Blynk(BLYNK_AUTH_TOKEN, server="blynk.cloud", port=443)
     while True:
         blynk.run()
         time.sleep(0.1)
