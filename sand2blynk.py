@@ -41,7 +41,7 @@ chan7 = AnalogIn(mcp, MCP.P7)
 chan0 = AnalogIn(mcp, MCP.P0)
 
 # Funkcja wywoływana po naciśnięciu przycisku w Blynk
-@blynk.ON("V2")
+@blynk.on("V2")
 def button_handler(value):
     if int(value[0]) == 1:  # Sprawdza, czy przycisk został naciśnięty
         res_percent = sensor_to_percentage(chan7.value, min_value_asR, max_value_asR)
