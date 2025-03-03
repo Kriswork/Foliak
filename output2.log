@@ -1,0 +1,29 @@
+nohup: ignoring input
+
+    ___  __          __
+   / _ )/ /_ _____  / /__
+  / _  / / // / _ \/  '_/
+ /____/_/\_, /_//_/_/\_\
+        /___/ for Python v1.0.0 (linux)
+
+Connecting to fra1.blynk.cloud:443...
+40.16 100.0
+reset 2025-02-28 12:19
+35.89 100.0
+reset 2025-02-28 12:49
+33.98 100.0
+reset 2025-02-28 13:19
+32.36 100.0
+Traceback (most recent call last):
+  File "/home/malina/projekt-foliak/sand2blynk.py", line 68, in <module>
+    blynk.virtual_write(PIN_RESISTANCE, res_percent)
+  File "/home/malina/myenv/lib/python3.11/site-packages/BlynkLib.py", line 84, in virtual_write
+    self._send(MSG_HW, 'vw', pin, *val)
+  File "/home/malina/myenv/lib/python3.11/site-packages/BlynkLib.py", line 117, in _send
+    self._write(msg)
+  File "/home/malina/myenv/lib/python3.11/site-packages/BlynkLib.py", line 249, in _write
+    self.conn.write(data)
+  File "/usr/lib/python3.11/ssl.py", line 1186, in write
+    return self._sslobj.write(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+ssl.SSLZeroReturnError: TLS/SSL connection has been closed (EOF) (_ssl.c:2393)

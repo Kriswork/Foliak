@@ -5,6 +5,7 @@ import busio
 import BlynkLib  # Klient Blynk TCP
 import adafruit_mcp3xxx.mcp3008 as MCP
 from adafruit_mcp3xxx.analog_in import AnalogIn
+from datetime import datetime
 
 # KONFIGURACJA BLYNK
 BLYNK_AUTH_TOKEN = 'LLjO2Mzn4uNz99vFUsNe390yXd_-LMGK'
@@ -71,6 +72,10 @@ while True:
 
     if antysleep == 120:
         antysleep = 0
+        now = datetime.now()
+        date_str = now.strftime("%Y-%m-%d")
+        time_str = now.strftime("%H:%M")
+        print("reset", date_str, time_str)
     # Obsługa zdarzeń Blynk
     blynk.run()
 
