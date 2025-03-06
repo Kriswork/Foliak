@@ -54,8 +54,8 @@ while True:
     as7_raw = chan7.value 
     print("")
     print("cd D7: ", sensor.value)
-    print(f"Wartość rezystancyjna  {as7_raw} -> {sensor_to_percentage(as7_raw, min_value_asR, max_value_asR)}%")
-    print(f"Wartość pojemnosciowa  {as0_raw} -> {sensor_to_percentage(as0_raw, min_value_asC, max_value_asC)}%")
+    print(f"Wartość rezystancyjna  {as7_raw} -> {as7_voltage:.2f}V -> {sensor_to_percentage(as7_raw, min_value_asR, max_value_asR)}%")
+    print(f"Wartość pojemnosciowa  {as0_raw} -> {as0_voltage:.2f}V -> {sensor_to_percentage(as0_raw, min_value_asC, max_value_asC)}%")
     print("")
     print("")
     
