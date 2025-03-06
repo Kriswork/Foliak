@@ -39,7 +39,7 @@ cs = digitalio.DigitalInOut(board.D8)
 mcp = MCP.MCP3008(spi, cs)
 
 # configure GPIO7 as analog input via MCP3008
-sensor = digitalio.DigitalInOut(board.D7)
+#sensor = digitalio.DigitalInOut(board.D7)
 
 # File to store data
 file_path = "nawodnienie_zapis.txt"
@@ -47,7 +47,7 @@ file_path = "nawodnienie_zapis.txt"
 # Ensure file exists before appending
 try:
     with open(file_path, "x") as file:
-        file.write("Data\tGodzina\tNapięcie(V)_C_(P0)\tRAW_C_(P0)\tProcent_C_(P0)\tNapięcie(V)_R_(P7)\tRAW_R_(P7)\tProcent_R_(P7)\tProg_(bool)\n")
+        file.write("Data\tGodzina\tNapięcie(V)_C_(P0)\tRAW_C_(P0)\tProcent_C_(P0)\tNapięcie(V)_R_(P7)\tRAW_R_(P7)\tProcent_R_(P7)\n")
 except FileExistsError:
     pass
 
@@ -59,7 +59,7 @@ while True:
     chan0 = AnalogIn(mcp, MCP.P0)
     
     # Read analog voltage and raw value from GPIO7
-    d7 = sensor.value # wartość bool wyjście D0 czyjnik wilgotności 
+    # d7 = sensor.value # wartość bool wyjście D0 czyjnik wilgotności 
     ap0_voltage = chan0.voltage # wartość w Voltach pin analgowy 0 (MCP3008)
     ap0_raw = chan0.value  # wartość raw pin analgowy 0 (MCP3008)
     ap7_voltage = chan7.voltage # wartość w Voltach pin analgowy 7 (MCP3008)
@@ -72,7 +72,7 @@ while True:
     time_str = now.strftime("%H:%M")
     
     # Format data for logging
-    log_entry = f"{date_str}\t{time_str}\t{ap0_voltage:.2f}\t{ap0_raw}\t{sensor_to_percentage(ap0_raw, min_value_asC, max_value_asC)}%\t{ap7_voltage:.2f}\t{ap7_raw}\t{sensor_to_percentage(ap7_raw, min_value_asR, max_value_asR)}%\t{d7}\n"
+    log_entry = f"{date_str}\t{time_str}\t{ap0_voltage:.2f}\t{ap0_raw}\t{sensor_to_percentage(ap0_raw, min_value_asC, max_value_asC)}%\t{ap7_voltage:.2f}\t{ap7_raw}\t{sensor_to_percentage(ap7_raw, min_value_asR, max_value_asR)}%\n"
     
     # Write to file
     with open(file_path, "a") as file:
