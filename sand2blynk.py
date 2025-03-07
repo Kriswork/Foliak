@@ -73,8 +73,12 @@ while True:
             print(f"Wysyłam res_percent: {res_percent}%, {cap_percent}%")
         antysleep = antysleep + 1
 
-        if antysleep == 2:
+        if antysleep == 100:
             antysleep = 0
+            now = datetime.now()
+            date_str = now.strftime("%Y-%m-%d")
+            time_str = now.strftime("%H:%M")
+            print("reset", date_str, time_str)
 
         
         # Obsługa zdarzeń Blynk
@@ -85,4 +89,4 @@ while True:
         time.sleep(5)
         blynk = connect_blynk()
 
-    time.sleep(5)
+    time.sleep(20)
