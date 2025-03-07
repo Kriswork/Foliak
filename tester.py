@@ -64,7 +64,7 @@ while True:
     as7_voltage = chan7.voltage
     as7_raw = chan7.value 
     print("")
-    print(f"Temperatura: {temperature}, Wilgotność powietrze: {humidity}, Wartości rezystora: {chan0.value} -> {chan0.voltage}")
+    print(f"Temperatura: {temperature}, Wilgotność powietrze: {humidity}, Wartości rezystora: {chan4.value} -> {chan4.voltage}")
     print(f"Wartość rezystancyjna  {as7_raw} -> {as7_voltage:.2f}V -> {sensor_to_percentage(as7_raw, min_value_asR, max_value_asR)}%")
     print(f"Wartość pojemnosciowa  {as0_raw} -> {as0_voltage:.2f}V -> {sensor_to_percentage(as0_raw, min_value_asC, max_value_asC)}%")
     print(f"Wartość pojemnosciowa 2  {as1_raw} -> {as1_voltage:.2f}V -> {sensor_to_percentage(as1_raw, min_value_asC2, max_value_asC2)}%")
