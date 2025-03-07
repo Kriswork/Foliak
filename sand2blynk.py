@@ -9,7 +9,12 @@ from datetime import datetime
 
 # KONFIGURACJA BLYNK
 BLYNK_AUTH_TOKEN = 'LLjO2Mzn4uNz99vFUsNe390yXd_-LMGK'
-blynk = BlynkLib.Blynk(BLYNK_AUTH_TOKEN, server="fra1.blynk.cloud", port=443)
+
+def connect_blynk():
+    """Tworzy nowe połączenie z Blynk."""
+    return BlynkLib.Blynk(BLYNK_AUTH_TOKEN, server="fra1.blynk.cloud", port=443)
+
+blynk = connect_blynk()
 
 # Wirtualne piny w aplikacji Blynk
 PIN_RESISTANCE = 0  # Odpowiada V0 w aplikacji Blynk
@@ -46,37 +51,38 @@ chan0 = AnalogIn(mcp, MCP.P0)
 def button_handler(value):
     if int(value[0]) == 1:  # Sprawdza, czy przycisk został naciśnięty
         res_percent = sensor_to_percentage(chan7.value, min_value_asR, max_value_asR)
-        #print(f"Przycisk naciśnięty! Wysyłam res_percent: {res_percent}%")
+        print(f"Przycisk naciśnięty! Wysyłam res_percent: {res_percent}%")
         blynk.virtual_write(PIN_BUTTON_OUTPUT, res_percent)
         
 antysleep = 0
 
 while True:
+    try:
+        if antysleep == 0:
+            ap0_voltage = chan0.voltage
+            ap0_raw = chan0.value
+            ap7_voltage = chan7.voltage
+            ap7_raw = chan7.value
 
-    if antysleep == 0:
-        ap0_voltage = chan0.voltage
-        ap0_raw = chan0.value
-        ap7_voltage = chan7.voltage
-        ap7_raw = chan7.value
+            res_percent = sensor_to_percentage(ap7_raw, min_value_asR, max_value_asR)
+            cap_percent = sensor_to_percentage(ap0_raw, min_value_asC, max_value_asC)
 
-        res_percent = sensor_to_percentage(ap7_raw, min_value_asR, max_value_asR)
-        cap_percent = sensor_to_percentage(ap0_raw, min_value_asC, max_value_asC)
+            # Wysyłanie danych do Blynk (TCP)
+            blynk.virtual_write(PIN_RESISTANCE, res_percent)
+            blynk.virtual_write(PIN_CAPACITANCE, cap_percent)
+            print(f"Wysyłam res_percent: {res_percent}%, {cap_percent}%")
+        antysleep = antysleep + 1
 
-        print(res_percent, cap_percent)
+        if antysleep == 2:
+            antysleep = 0
 
-        # Wysyłanie danych do Blynk (TCP)
-        blynk.virtual_write(PIN_RESISTANCE, res_percent)
-        blynk.virtual_write(PIN_CAPACITANCE, cap_percent)
         
-    antysleep = antysleep + 1
+        # Obsługa zdarzeń Blynk
+        blynk.run()
+    
+    except Exception as e:
+        print(f"Błąd połączenia z Blynk: {e}. Ponowna próba za 5 sekund...")
+        time.sleep(5)
+        blynk = connect_blynk()
 
-    if antysleep == 120:
-        antysleep = 0
-        now = datetime.now()
-        date_str = now.strftime("%Y-%m-%d")
-        time_str = now.strftime("%H:%M")
-        print("reset", date_str, time_str)
-    # Obsługa zdarzeń Blynk
-    blynk.run()
-
-    time.sleep(15)
+    time.sleep(5)
