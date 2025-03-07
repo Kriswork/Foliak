@@ -74,9 +74,9 @@ while True:
     time_str = now.strftime("%H:%M")
     
     # Formatowanie danych do logowania
-    log_entry = (f"{date_str}\t{time_str}\t{ap0_voltage:.2f}\t{ap0_raw}\t{sensor_to_percentage(ap0_raw, min_value_asC, max_value_asC)}%\t"
-                 f"{ap7_voltage:.2f}\t{ap7_raw}\t{sensor_to_percentage(ap7_raw, min_value_asR, max_value_asR)}%\t"
-                 f"{ap1_voltage:.2f}\t{ap1_raw}\t{sensor_to_percentage(ap1_raw, min_value_asR, max_value_asR)}%\t"
+    log_entry = (f"{date_str}\t{time_str}\t{as0_voltage:.2f}\t{as0_raw}\t{sensor_to_percentage(as0_raw, min_value_asC, max_value_asC)}%\t"
+                 f"{as7_voltage:.2f}\t{as7_raw}\t{sensor_to_percentage(as7_raw, min_value_asR, max_value_asR)}%\t"
+                 f"{as1_voltage:.2f}\t{as1_raw}\t{sensor_to_percentage(as1_raw, min_value_asC, max_value_asC)}%\t"
                  f"{temperature}\t{humidity}\t{chan4.value}\t{chan4.voltage}\n")
     
     # Zapis do pliku
