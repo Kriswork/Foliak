@@ -7,7 +7,7 @@ import adafruit_dht  # Biblioteka do obsługi DHT22
 from adafruit_mcp3xxx.analog_in import AnalogIn
 from datetime import datetime
 
-dht_device = adafruit_dht.DHT22(board.D7)  # GPIO7 DHT22
+dht_device = adafruit_dht.DHT22(board.D4)  # GPIO7 DHT22
 
 min_value_asR=22000
 max_value_asR=65525
