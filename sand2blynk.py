@@ -86,6 +86,7 @@ while True:
     
     except Exception as e:
         print(f"Błąd połączenia z Blynk: {e}. Ponowna próba za 5 sekund...")
+        print("Brak połaczenia")
         time.sleep(5)
         blynk = connect_blynk()
 
