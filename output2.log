@@ -7,207 +7,260 @@ nohup: ignoring input
         /___/ for Python v1.0.0 (linux)
 
 Connecting to fra1.blynk.cloud:443...
-Wysyłam res_percent: 100.0%, 100.0%
-reset 2025-03-11 21:43
-Wysyłam res_percent: 100.0%, 100.0%
-reset 2025-03-11 22:16
-Wysyłam res_percent: 100.0%, 100.0%
-reset 2025-03-11 22:50
-Wysyłam res_percent: 100.0%, 100.0%
-reset 2025-03-11 23:23
-Wysyłam res_percent: 100.0%, 100.0%
-reset 2025-03-11 23:56
-Wysyłam res_percent: 100.0%, 100.0%
-reset 2025-03-12 00:30
-Wysyłam res_percent: 99.91%, 100.0%
-reset 2025-03-12 01:03
-Wysyłam res_percent: 99.77%, 100.0%
-reset 2025-03-12 01:37
-Wysyłam res_percent: 99.77%, 100.0%
-reset 2025-03-12 02:10
-Wysyłam res_percent: 99.47%, 100.0%
-reset 2025-03-12 02:43
-Wysyłam res_percent: 99.47%, 100.0%
-reset 2025-03-12 03:17
-Wysyłam res_percent: 99.47%, 100.0%
-reset 2025-03-12 03:50
-Wysyłam res_percent: 99.18%, 100.0%
-reset 2025-03-12 04:23
-Wysyłam res_percent: 99.18%, 100.0%
-reset 2025-03-12 04:57
-Wysyłam res_percent: 99.18%, 100.0%
-reset 2025-03-12 05:30
-Wysyłam res_percent: 99.18%, 100.0%
-reset 2025-03-12 06:04
-Wysyłam res_percent: 99.03%, 100.0%
-reset 2025-03-12 06:37
-Wysyłam res_percent: 99.03%, 100.0%
-reset 2025-03-12 07:10
-Wysyłam res_percent: 98.89%, 100.0%
-Przycisk naciśnięty! Wysyłam res_percent: 98.89%
-reset 2025-03-12 07:44
-Wysyłam res_percent: 98.74%, 100.0%
-reset 2025-03-12 08:17
-Wysyłam res_percent: 98.74%, 100.0%
-reset 2025-03-12 08:50
+Wysyłam res_percent: 72.1%, 100.0%
+Przycisk naciśnięty! Wysyłam res_percent: 77.1%
+reset 2025-03-14 09:40
+Wysyłam res_percent: 76.51%, 100.0%
+reset 2025-03-14 10:13
+Wysyłam res_percent: 75.34%, 100.0%
+reset 2025-03-14 10:47
 Błąd połączenia z Blynk: TLS/SSL connection has been closed (EOF) (_ssl.c:2393). Ponowna próba za 5 sekund...
 Brak połaczenia
 Connecting to fra1.blynk.cloud:443...
-Wysyłam res_percent: 98.59%, 100.0%
+Wysyłam res_percent: 73.86%, 100.0%
+reset 2025-03-14 11:20
+Wysyłam res_percent: 67.83%, 46.84%
+reset 2025-03-14 11:54
+Wysyłam res_percent: 66.21%, 100.0%
+reset 2025-03-14 12:27
+Wysyłam res_percent: 65.47%, 100.0%
+reset 2025-03-14 13:01
+Wysyłam res_percent: 66.36%, 100.0%
+reset 2025-03-14 13:34
+Wysyłam res_percent: 65.92%, 100.0%
+reset 2025-03-14 14:07
+Wysyłam res_percent: 64.44%, 57.85%
+reset 2025-03-14 14:41
+Wysyłam res_percent: 61.94%, 100.0%
+reset 2025-03-14 15:14
+Wysyłam res_percent: 61.21%, 100.0%
+reset 2025-03-14 15:47
+Wysyłam res_percent: 60.47%, 100.0%
+reset 2025-03-14 16:21
+Wysyłam res_percent: 59.59%, 100.0%
 Błąd połączenia z Blynk: TLS/SSL connection has been closed (EOF) (_ssl.c:2393). Ponowna próba za 5 sekund...
 Brak połaczenia
 Connecting to fra1.blynk.cloud:443...
-reset 2025-03-12 09:24
-Wysyłam res_percent: 98.59%, 100.0%
-reset 2025-03-12 09:58
-Wysyłam res_percent: 98.59%, 100.0%
-reset 2025-03-12 10:31
+reset 2025-03-14 16:54
+Wysyłam res_percent: 57.82%, 100.0%
+reset 2025-03-14 17:28
+Wysyłam res_percent: 57.82%, 45.7%
+reset 2025-03-14 18:01
 Błąd połączenia z Blynk: TLS/SSL connection has been closed (EOF) (_ssl.c:2393). Ponowna próba za 5 sekund...
 Brak połaczenia
 Connecting to fra1.blynk.cloud:443...
-Wysyłam res_percent: 98.44%, 100.0%
-reset 2025-03-12 11:05
-Wysyłam res_percent: 98.15%, 100.0%
-reset 2025-03-12 11:38
-Wysyłam res_percent: 97.85%, 100.0%
-reset 2025-03-12 12:12
-Wysyłam res_percent: 93.0%, 100.0%
-reset 2025-03-12 12:45
-Wysyłam res_percent: 92.7%, 100.0%
-reset 2025-03-12 13:18
-Wysyłam res_percent: 92.85%, 100.0%
-reset 2025-03-12 13:52
-Wysyłam res_percent: 93.0%, 100.0%
-reset 2025-03-12 14:25
+Wysyłam res_percent: 60.76%, 100.0%
+reset 2025-03-14 18:35
+Wysyłam res_percent: 59.15%, 100.0%
+reset 2025-03-14 19:08
+Wysyłam res_percent: 57.82%, 100.0%
+reset 2025-03-14 19:42
+Wysyłam res_percent: 56.5%, 100.0%
+reset 2025-03-14 20:15
+Wysyłam res_percent: 56.05%, 100.0%
+reset 2025-03-14 20:48
+Wysyłam res_percent: 55.02%, 43.42%
+reset 2025-03-14 21:22
+Wysyłam res_percent: 55.02%, 100.0%
+reset 2025-03-14 21:55
+Wysyłam res_percent: 54.44%, 100.0%
+reset 2025-03-14 22:28
+Wysyłam res_percent: 54.58%, 100.0%
+reset 2025-03-14 23:02
+Wysyłam res_percent: 54.58%, 100.0%
+reset 2025-03-14 23:35
+Wysyłam res_percent: 54.14%, 100.0%
+reset 2025-03-15 00:09
+Wysyłam res_percent: 53.4%, 100.0%
+reset 2025-03-15 00:42
+Wysyłam res_percent: 52.67%, 84.05%
+reset 2025-03-15 01:15
+Wysyłam res_percent: 51.49%, 100.0%
+reset 2025-03-15 01:49
+Wysyłam res_percent: 50.61%, 41.14%
+reset 2025-03-15 02:22
+Wysyłam res_percent: 50.02%, 45.7%
+reset 2025-03-15 02:55
+Wysyłam res_percent: 50.31%, 100.0%
+reset 2025-03-15 03:29
+Wysyłam res_percent: 50.17%, 100.0%
+reset 2025-03-15 04:02
+Wysyłam res_percent: 48.84%, 100.0%
+reset 2025-03-15 04:36
+Wysyłam res_percent: 48.4%, 100.0%
+reset 2025-03-15 05:09
+Wysyłam res_percent: 47.08%, 100.0%
+reset 2025-03-15 05:42
+Wysyłam res_percent: 45.9%, 100.0%
+reset 2025-03-15 06:16
+Wysyłam res_percent: 46.04%, 63.55%
+reset 2025-03-15 06:49
+Wysyłam res_percent: 42.66%, 100.0%
+reset 2025-03-15 07:22
+Wysyłam res_percent: 41.33%, 31.65%
+reset 2025-03-15 07:56
+Wysyłam res_percent: 41.04%, 100.0%
+reset 2025-03-15 08:29
+Wysyłam res_percent: 40.16%, 100.0%
+reset 2025-03-15 09:03
+Wysyłam res_percent: 39.86%, 95.44%
+reset 2025-03-15 09:36
+Wysyłam res_percent: 40.31%, 50.26%
+reset 2025-03-15 10:09
+Wysyłam res_percent: 40.89%, 100.0%
+reset 2025-03-15 10:43
 Błąd połączenia z Blynk: TLS/SSL connection has been closed (EOF) (_ssl.c:2393). Ponowna próba za 5 sekund...
 Brak połaczenia
 Connecting to fra1.blynk.cloud:443...
-Wysyłam res_percent: 93.14%, 100.0%
-reset 2025-03-12 14:59
-Wysyłam res_percent: 93.29%, 100.0%
-reset 2025-03-12 15:32
-Wysyłam res_percent: 93.44%, 100.0%
-reset 2025-03-12 16:06
-Wysyłam res_percent: 93.44%, 100.0%
-reset 2025-03-12 16:39
-Wysyłam res_percent: 93.59%, 100.0%
-reset 2025-03-12 17:12
-Wysyłam res_percent: 93.88%, 100.0%
-reset 2025-03-12 17:46
-Wysyłam res_percent: 93.73%, 100.0%
-reset 2025-03-12 18:19
-Wysyłam res_percent: 93.88%, 100.0%
-reset 2025-03-12 18:52
-Wysyłam res_percent: 93.44%, 100.0%
-reset 2025-03-12 19:26
-Błąd połączenia z Blynk: TLS/SSL connection has been closed (EOF) (_ssl.c:2393). Ponowna próba za 5 sekund...
-Brak połaczenia
-Connecting to fra1.blynk.cloud:443...
-Wysyłam res_percent: 93.29%, 100.0%
-reset 2025-03-12 20:00
-Wysyłam res_percent: 93.0%, 100.0%
-reset 2025-03-12 20:33
-Wysyłam res_percent: 93.14%, 100.0%
-reset 2025-03-12 21:06
-Wysyłam res_percent: 93.29%, 100.0%
-reset 2025-03-12 21:40
-Wysyłam res_percent: 93.44%, 100.0%
-reset 2025-03-12 22:13
-Wysyłam res_percent: 93.29%, 100.0%
-reset 2025-03-12 22:46
-Wysyłam res_percent: 93.59%, 100.0%
-reset 2025-03-12 23:20
-Wysyłam res_percent: 93.29%, 100.0%
-reset 2025-03-12 23:53
-Wysyłam res_percent: 84.31%, 100.0%
-reset 2025-03-13 00:27
-Wysyłam res_percent: 84.02%, 100.0%
-reset 2025-03-13 01:00
-Wysyłam res_percent: 84.17%, 100.0%
-reset 2025-03-13 01:33
-Wysyłam res_percent: 84.31%, 100.0%
-reset 2025-03-13 02:07
-Wysyłam res_percent: 84.31%, 100.0%
-reset 2025-03-13 02:40
-Wysyłam res_percent: 84.61%, 100.0%
-reset 2025-03-13 03:13
-Wysyłam res_percent: 85.05%, 100.0%
-reset 2025-03-13 03:47
-Wysyłam res_percent: 85.64%, 100.0%
-reset 2025-03-13 04:20
-Wysyłam res_percent: 84.61%, 100.0%
-reset 2025-03-13 04:54
-Wysyłam res_percent: 84.31%, 100.0%
-reset 2025-03-13 05:27
-Wysyłam res_percent: 83.72%, 100.0%
-reset 2025-03-13 06:00
-Wysyłam res_percent: 82.99%, 100.0%
-reset 2025-03-13 06:34
-Wysyłam res_percent: 82.25%, 100.0%
-reset 2025-03-13 07:07
-Wysyłam res_percent: 81.96%, 100.0%
-reset 2025-03-13 07:40
-Wysyłam res_percent: 81.37%, 100.0%
-reset 2025-03-13 08:14
-Wysyłam res_percent: 81.66%, 100.0%
-Błąd połączenia z Blynk: TLS/SSL connection has been closed (EOF) (_ssl.c:2393). Ponowna próba za 5 sekund...
-Brak połaczenia
-Connecting to fra1.blynk.cloud:443...
-reset 2025-03-13 08:47
-Wysyłam res_percent: 82.4%, 100.0%
-reset 2025-03-13 09:21
-Wysyłam res_percent: 90.79%, 100.0%
-reset 2025-03-13 09:54
-Wysyłam res_percent: 90.5%, 100.0%
-reset 2025-03-13 10:27
-Wysyłam res_percent: 87.85%, 100.0%
-reset 2025-03-13 11:01
-Wysyłam res_percent: 86.96%, 100.0%
-reset 2025-03-13 11:34
-Wysyłam res_percent: 86.23%, 100.0%
-reset 2025-03-13 12:08
-Wysyłam res_percent: 81.22%, 99.62%
-reset 2025-03-13 12:41
-Wysyłam res_percent: 80.78%, 100.0%
-reset 2025-03-13 13:14
-Wysyłam res_percent: 80.05%, 100.0%
-reset 2025-03-13 13:48
-Wysyłam res_percent: 80.49%, 87.47%
-reset 2025-03-13 14:21
-Błąd połączenia z Blynk: TLS/SSL connection has been closed (EOF) (_ssl.c:2393). Ponowna próba za 5 sekund...
-Brak połaczenia
-Connecting to fra1.blynk.cloud:443...
-Traceback (most recent call last):
-  File "/home/malina/projekt-foliak/sand2blynk.py", line 71, in <module>
-    blynk.virtual_write(PIN_RESISTANCE, res_percent)
-  File "/home/malina/myenv/lib/python3.11/site-packages/BlynkLib.py", line 84, in virtual_write
-    self._send(MSG_HW, 'vw', pin, *val)
-  File "/home/malina/myenv/lib/python3.11/site-packages/BlynkLib.py", line 117, in _send
-    self._write(msg)
-  File "/home/malina/myenv/lib/python3.11/site-packages/BlynkLib.py", line 249, in _write
-    self.conn.write(data)
-  File "/usr/lib/python3.11/ssl.py", line 1186, in write
-    return self._sslobj.write(data)
-           ^^^^^^^^^^^^^^^^^^^^^^^^
-ssl.SSLZeroReturnError: TLS/SSL connection has been closed (EOF) (_ssl.c:2393)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/malina/projekt-foliak/sand2blynk.py", line 91, in <module>
-    blynk = connect_blynk()
-            ^^^^^^^^^^^^^^^
-  File "/home/malina/projekt-foliak/sand2blynk.py", line 15, in connect_blynk
-    return BlynkLib.Blynk(BLYNK_AUTH_TOKEN, server="fra1.blynk.cloud", port=443)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/malina/myenv/lib/python3.11/site-packages/BlynkLib.py", line 214, in __init__
-    BlynkProtocol.__init__(self, auth, **kwargs)
-  File "/home/malina/myenv/lib/python3.11/site-packages/BlynkLib.py", line 81, in __init__
-    self.connect()
-  File "/home/malina/myenv/lib/python3.11/site-packages/BlynkLib.py", line 226, in connect
-    s.connect(socket.getaddrinfo(self.server, self.port)[0][-1])
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.11/socket.py", line 962, in getaddrinfo
-    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-socket.gaierror: [Errno -3] Temporary failure in name resolution
+Wysyłam res_percent: 40.75%, 100.0%
+reset 2025-03-15 11:16
+Wysyłam res_percent: 40.31%, 61.26%
+reset 2025-03-15 11:50
+Wysyłam res_percent: 39.86%, 84.05%
+reset 2025-03-15 12:23
+Wysyłam res_percent: 39.27%, 83.67%
+reset 2025-03-15 12:57
+Wysyłam res_percent: 37.95%, 100.0%
+reset 2025-03-15 13:30
+Wysyłam res_percent: 37.51%, 100.0%
+reset 2025-03-15 14:03
+Wysyłam res_percent: 37.51%, 100.0%
+reset 2025-03-15 14:37
+Wysyłam res_percent: 37.07%, 100.0%
+reset 2025-03-15 15:10
+Wysyłam res_percent: 36.62%, 64.31%
+reset 2025-03-15 15:43
+Wysyłam res_percent: 36.18%, 100.0%
+reset 2025-03-15 16:17
+Wysyłam res_percent: 35.6%, 100.0%
+reset 2025-03-15 16:50
+Wysyłam res_percent: 34.86%, 100.0%
+reset 2025-03-15 17:24
+Wysyłam res_percent: 34.27%, 100.0%
+reset 2025-03-15 17:57
+Wysyłam res_percent: 34.27%, 100.0%
+reset 2025-03-15 18:30
+Wysyłam res_percent: 34.27%, 99.62%
+reset 2025-03-15 19:04
+Wysyłam res_percent: 34.56%, 100.0%
+reset 2025-03-15 19:37
+Wysyłam res_percent: 33.68%, 100.0%
+reset 2025-03-15 20:10
+Wysyłam res_percent: 33.24%, 85.95%
+reset 2025-03-15 20:44
+Wysyłam res_percent: 33.09%, 100.0%
+reset 2025-03-15 21:17
+Wysyłam res_percent: 32.65%, 100.0%
+reset 2025-03-15 21:51
+Wysyłam res_percent: 31.91%, 100.0%
+reset 2025-03-15 22:24
+Wysyłam res_percent: 30.89%, 84.81%
+reset 2025-03-15 22:57
+Wysyłam res_percent: 29.85%, 84.81%
+reset 2025-03-15 23:31
+Wysyłam res_percent: 27.35%, 84.81%
+reset 2025-03-16 00:04
+Wysyłam res_percent: 25.29%, 84.81%
+reset 2025-03-16 00:37
+Wysyłam res_percent: 24.41%, 84.81%
+reset 2025-03-16 01:11
+Wysyłam res_percent: 24.11%, 84.81%
+reset 2025-03-16 01:44
+Wysyłam res_percent: 22.64%, 84.81%
+reset 2025-03-16 02:18
+Wysyłam res_percent: 25.59%, 100.0%
+reset 2025-03-16 02:51
+Wysyłam res_percent: 24.85%, 85.95%
+reset 2025-03-16 03:24
+Wysyłam res_percent: 25.14%, 86.33%
+reset 2025-03-16 03:58
+Wysyłam res_percent: 22.79%, 100.0%
+reset 2025-03-16 04:31
+Wysyłam res_percent: 22.94%, 100.0%
+reset 2025-03-16 05:04
+Wysyłam res_percent: 19.55%, 84.05%
+reset 2025-03-16 05:38
+Wysyłam res_percent: 17.64%, 84.05%
+reset 2025-03-16 06:11
+Wysyłam res_percent: 16.17%, 100.0%
+reset 2025-03-16 06:45
+Wysyłam res_percent: 15.14%, 83.29%
+reset 2025-03-16 07:18
+Wysyłam res_percent: 14.7%, 82.91%
+reset 2025-03-16 07:51
+Wysyłam res_percent: 14.25%, 82.91%
+reset 2025-03-16 08:25
+Wysyłam res_percent: 13.66%, 100.0%
+reset 2025-03-16 08:58
+Wysyłam res_percent: 13.22%, 100.0%
+reset 2025-03-16 09:31
+Wysyłam res_percent: 12.05%, 100.0%
+reset 2025-03-16 10:05
+Wysyłam res_percent: 12.19%, 100.0%
+reset 2025-03-16 10:38
+Wysyłam res_percent: 11.9%, 81.39%
+reset 2025-03-16 11:12
+Wysyłam res_percent: 11.75%, 81.01%
+reset 2025-03-16 11:45
+Wysyłam res_percent: 11.31%, 100.0%
+reset 2025-03-16 12:18
+Wysyłam res_percent: 11.46%, 81.01%
+reset 2025-03-16 12:52
+Wysyłam res_percent: 11.01%, 100.0%
+reset 2025-03-16 13:25
+Wysyłam res_percent: 10.72%, 100.0%
+reset 2025-03-16 13:58
+Wysyłam res_percent: 10.43%, 80.64%
+reset 2025-03-16 14:32
+Wysyłam res_percent: 9.4%, 100.0%
+reset 2025-03-16 15:05
+Wysyłam res_percent: 9.4%, 100.0%
+reset 2025-03-16 15:39
+Wysyłam res_percent: 9.99%, 81.39%
+reset 2025-03-16 16:12
+Wysyłam res_percent: 10.13%, 81.01%
+reset 2025-03-16 16:45
+Wysyłam res_percent: 9.4%, 81.01%
+reset 2025-03-16 17:19
+Wysyłam res_percent: 9.25%, 80.64%
+reset 2025-03-16 17:52
+Wysyłam res_percent: 9.4%, 80.64%
+reset 2025-03-16 18:25
+Wysyłam res_percent: 9.1%, 80.26%
+reset 2025-03-16 18:59
+Wysyłam res_percent: 8.95%, 80.26%
+reset 2025-03-16 19:32
+Wysyłam res_percent: 8.95%, 80.26%
+reset 2025-03-16 20:06
+Wysyłam res_percent: 8.37%, 80.26%
+reset 2025-03-16 20:39
+Wysyłam res_percent: 8.81%, 80.26%
+reset 2025-03-16 21:12
+Wysyłam res_percent: 8.95%, 80.64%
+reset 2025-03-16 21:46
+Wysyłam res_percent: 8.81%, 82.15%
+reset 2025-03-16 22:19
+Wysyłam res_percent: 8.95%, 80.64%
+reset 2025-03-16 22:52
+Wysyłam res_percent: 8.51%, 79.49%
+reset 2025-03-16 23:26
+Wysyłam res_percent: 7.92%, 79.11%
+reset 2025-03-16 23:59
+Wysyłam res_percent: 8.66%, 79.49%
+reset 2025-03-17 00:33
+Wysyłam res_percent: 7.48%, 79.87%
+reset 2025-03-17 01:06
+Wysyłam res_percent: 8.07%, 80.64%
+reset 2025-03-17 01:39
+Wysyłam res_percent: 7.48%, 80.26%
+reset 2025-03-17 02:13
+Wysyłam res_percent: 7.92%, 79.11%
+reset 2025-03-17 02:46
+Wysyłam res_percent: 6.89%, 80.64%
+reset 2025-03-17 03:20
+Wysyłam res_percent: 7.48%, 79.49%
+reset 2025-03-17 03:53
+Wysyłam res_percent: 6.75%, 79.87%
+reset 2025-03-17 04:26
+Wysyłam res_percent: 6.6%, 79.11%
+reset 2025-03-17 05:00
